@@ -14,7 +14,7 @@ public class Main {
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setResizable(false);
 
-    ImageIcon image = new ImageIcon("Travelbag.png");
+    ImageIcon image = new ImageIcon("Travelbag.png"); //if u want I can send the png
     frame.setIconImage(image.getImage());
     frame.getContentPane().setBackground(new Color(0,0,100));
   }
