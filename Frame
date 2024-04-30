@@ -1,0 +1,22 @@
+import java.awt.Color;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    JFrame frame = new JFrame();
+
+    frame.setVisible(true);
+    frame.setSize(400,400);
+    frame.setTitle("OOP Travel Planner");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setResizable(false);
+
+    ImageIcon image = new ImageIcon("Travelbag.png");
+    frame.setIconImage(image.getImage());
+    frame.getContentPane().setBackground(new Color(0,0,100));
+  }
+}
